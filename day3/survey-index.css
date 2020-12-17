@@ -1,0 +1,88 @@
+/*
+CSS using grid layout as well as flexbox to make it responsive
+*/
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://us.123rf.com/450wm/dashtik/dashtik1803/dashtik180300116/96701303-colorful-gradient-mesh-background-in-bright-colors-abstract-blurred-smooth-vector-illustration-.jpg?ver=6);
+    background-size: cover;
+}
+#title-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info-div{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "name-label name",
+    "email-label email",
+    "age-label age";
+    gap: 1vh;
+}
+#select-div,
+#checkbox-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#fav-lang-des{
+    display: flex;
+    justify-content: center;
+}
+#radio-div{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1vh;
+    grid-template-areas:  
+    ". description description ."
+    ". l1 b1 ."
+    ". l2 b2 ."
+    ". l3 b3 .";
+}
+#fav-color-paragraph{
+    grid-area: description;
+}
+#blue{
+    grid-area: b1;
+}
+#red{
+    grid-area: b2;
+}
+#green{
+    grid-area: b3;
+}
+#l1{
+    grid-area: l1;
+}
+#l2{
+    grid-area: l2;
+}
+#l3{
+    grid-area: l3;
+}
+#checkboxes{
+    display: flex;
+    flex-direction: column;
+}
+#checkbox-des{
+    display: flex;
+    justify-content: center;
+}
+#comments-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#submit-div{
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    width: 100%;
+    margin-top: 1vh;
+}

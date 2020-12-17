@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey-index.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!--Main container -->
+    <div id="main">
+        <!--Title and description container -->
+        <div id="title-div">
+            <h1 id="title"><b>Take This Survey!</b></h1>
+            <p>This is a survey for us to know what aspects of coding you enjoy!</p>
+        </div>
+        <!--Form that will hold everything -->
+        <form id="survey-form">
+            <!--Info container -->
+            <div id="info-div">
+                <label for="name" id="name-label">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter name" required="true">
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email" required="true">
+                <label for="age" id="number-label" >Age:</label>
+                <input type="number" id="number" name="age" placeholder="Enter age" min="0" max="120" required="true">
+            </div>
+            <!--Select container -->
+            <div id="select-div">
+                <!--Select description container -->
+                <div id="fav-lang-des">
+                    <p>What is your favorite language?</p>
+                </div>
+                <select name="languages" id="dropdown" >
+                    <option value="c">C</option>
+                    <option value="c++">C++</option>
+                    <option value="c#">C#</option>
+                    <option value="java">Java</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="python">Python</option>
+                </select>
+            </div>
+            <!--Radio button container -->
+            <div id="radio-div">
+                <p id="fav-color-paragraph">What is your favorite color?</p>
+                <label for="blue" id="l1">Blue</label>
+                <input type="radio" name="color" id="blue" value="blue">
+                <label for="red" id="l2">Red</label>
+                <input type="radio" name="color" id="red" value="red">
+                <label for="green" id="l3">Green</label>
+                <input type="radio" name="color" id="green" value="green">
+            </div>
+            <br>
+            <!--Master checkbox container. Used so flexbox can center everything. -->
+            <div id="checkbox-div">
+                <!--Checkboxes description container -->
+                <div id="checkbox-des">
+                    <p>Select all languages that you know.</p>
+                </div>
+                <!--Checkboxes container -->
+                <div id="checkboxes">
+                    <input type="checkbox" value="c">
+                    <label for="c">C</label>
+                    <input type="checkbox" value="c++">
+                    <label for="c++">C++</label>
+                    <input type="checkbox" value="c#">
+                    <label for="c#">C#</label>
+                    <input type="checkbox" value="java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" value="javascript">
+                    <label for="javascript">Javascript</label>
+                    <input type="checkbox" value="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" value="ruby">
+                    <label for="ruby">Ruby</label>
+                    <input type="checkbox" value="python">
+                    <label for="python">Python</label>
+                </div>
+            </div>
+            <!--Text area/comments container -->
+            <div id="comments-div">
+                <p>Additional Comments:</p>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+            <!--Submit container -->
+            <div id="submit-div">
+                <input type="submit" value="submit" id="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
