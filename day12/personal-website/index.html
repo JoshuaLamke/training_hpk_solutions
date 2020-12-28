@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Home</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="container-fluid pt-2">
+        <nav class='navbar navbar-expand-sm navbar-light'>
+            <div class="container-fluid">
+                <a href="#" class='navbar-brand'>Joshua Lamke Website</a>
+                <!--Hamburger button-->
+                <button class="navbar-toggler" data-target='#nav-menu' data-toggle='collapse' type='button'>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="nav-menu" class="collapse navbar-collapse">
+                    <!--List of links-->
+                    <ul class='navbar-nav ml-auto'>
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./projects.html" class="nav-link">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </nav>
+        <hr style="background-color: rgb(37, 27, 12);">
+    </div>
+    <div class="conatainer">
+        <div class="row justify-content-center px-5">
+            <h1 style="color: #131111;">Hello! My name is Joshua Lamke.</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div id="intro-container" class="py-5">
+            <div id="intro-header" class="pb-2">
+                <h2><u>Quick Intro</u></h2>
+            </div>
+            <div class="row mx-3">
+                <div class="col-12 col-sm-6 d-flex justify-content-end intro" >
+                    <div id="image-container" class="mt-5">
+                        <img src="./img/YaBoi.jpg" alt="Me" id="avatar">
+                    </div> 
+                </div>
+                <div class="col-12 col-sm-6 pt-5 d-flex flex-column justify-content-start intro">
+                    <div class="col-12 col-md-7">
+                        <p>  I am a rising senior at <i>George Mason University</i> and I study Computer Science.</p>
+                        <p>  I love to code everything from websites in the frontend to REST API's in the backend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row ml-3 d-flex flex-column mr-3 py-2" id="skills-container" style="background-color:  rgb(122, 128, 128);;">
+            <div class="row justify-content-center pr-5">
+                <h1 class="pl-5 py-5"><u>Top Skills</u></h1>
+            </div>
+            <div class="row d-flex">
+                <div class="col-12 col-sm-4">
+                    <ul>
+                        <li class="skill">Javascript</li>
+                        <li class="skill">Java</li> 
+                     </ul>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <ul>
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <ul>
+                        <li class="skill">Git/Github</li>
+                        <li class="skill">Node.js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="container-fluid fixed-bottom pb-2">
+        <hr style="background-color: rgb(0, 0, 0);">
+        <nav class='navbar navbar-expand navbar-light'>
+            <div class="container-fluid">
+                <a href="#" class='navbar-brand mr-auto' style="color:rgb(169, 169, 255)">By: Joshua Lamke</a>
+                <div id="nav-menu">
+                    <!--List of links-->
+                    <ul class='navbar-nav ml-auto'>
+                        <li class="nav-item">
+                            <a style="color:rgb(169, 169, 255);" href="https://github.com/JoshuaLamke" target="_blank" class="nav-link">Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:rgb(169, 169, 255);" target="_blank" href="https://www.linkedin.com/in/joshua-lamke-742166166/" class="nav-link">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
