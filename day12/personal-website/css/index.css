@@ -1,9 +1,12 @@
-
+html,
+body {
+    width: auto!important;
+    overflow-x: hidden!important;
+}
 body { 
     margin-bottom: 13vh;
     background: #ba2d0b;
     background: linear-gradient(#ba2d0b 0%, #fe7f2d 37%, #533601 100%) no-repeat center center fixed;
-    overflow-x: hidden;
 }
 #image-container {
     width: 200px;
@@ -40,10 +43,12 @@ body {
     border: 1px solid #252424;
     box-shadow: 10px 10px 30px #570707;
     color: #000000;
+    margin-bottom: 2vh;
 }
 #skills-container:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
+    margin-bottom: 2vh;
 }
 li {
     font-weight: 600;
