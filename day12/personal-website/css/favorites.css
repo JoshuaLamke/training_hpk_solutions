@@ -18,16 +18,21 @@ h1,
 h2 {
     text-shadow: 2px 2px 5px #413e3e;
 }
-@media Screen and (max-width: 1200px) {
-    img {
-        width: 90%!important;
-        height: 90%!important;
-    }
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;               
+    background-color:#000000;
+    height: 1px;
 }
-@media Screen and (min-width: 1200px) {
+img {
+    border: 5px solid rgb(255, 255, 255);
+}
+@media Screen and (max-width: 768px) {
     img {
         width: 80%!important;
-        height: 80%!important;
+        height: auto!important;
     }
 }
 @media Screen and (max-width: 330px) {

@@ -6,6 +6,7 @@ body {
 }
 li {
     font-weight: 600;
+    margin-right: 1vw;
 }
 li:hover{
     transform: scale(1.1);
@@ -44,3 +45,10 @@ hr {
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
+@media Screen and (max-width: 330px) {
+    .footer-link,
+    .footer-brand {
+        font-weight: 300;
+    }
+}
+

@@ -40,3 +40,9 @@ li:hover{
 h1 {
     text-shadow: 2px 2px 5px #000000;
 }
+@media Screen and (max-width: 330px) {
+    .footer-link,
+    .footer-brand {
+        font-weight: 300;
+    }
+}
