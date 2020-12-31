@@ -8,6 +8,10 @@ body {
     background: #ba2d0b;
     background: linear-gradient(#ba2d0b 0%, #fe7f2d 37%, #533601 100%) no-repeat center center fixed;
 }
+h1,
+h2 {
+    text-shadow: 2px 2px 5px #4d4a4a;
+}
 #image-container {
     width: 200px;
     height: 200px;

@@ -1,0 +1,31 @@
+body { 
+    margin-bottom: 13vh;
+    background: #ba2d0b;
+    background: linear-gradient(#ba2d0b 0%, #fe7f2d 37%, #533601 100%) no-repeat center center fixed;
+    overflow-x: hidden;
+}
+li {
+    font-weight: 600;
+}
+li:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    border: 1px solid black;
+    border-radius: 1000px;
+}
+h1,
+h2 {
+    text-shadow: 2px 2px 5px #413e3e;
+}
+@media Screen and (max-width: 1200px) {
+    img {
+        width: 90%!important;
+        height: 90%!important;
+    }
+}
+@media Screen and (min-width: 1200px) {
+    img {
+        width: 80%!important;
+        height: 80%!important;
+    }
+}
